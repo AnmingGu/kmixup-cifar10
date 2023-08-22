@@ -37,7 +37,7 @@ $ python train.py --lr=0.1 --alpha=10.0 --mixupBatch=16
 
 ## License
 
-This project is CC-BY-licensed.
+This project is provided under the MIT License, see LICENSE file.
 
 ## Acknowledgement
 The CIFAR-10 reimplementation of _k-mixup_ is adapted from the [mixup-cifar10](https://github.com/facebookresearch/mixup-cifar10/tree/main) repository by [facebookresearch](https://github.com/facebookresearch).
