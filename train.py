@@ -1,5 +1,4 @@
-#!/usr/bin/env python3 -u
-# Copyright (c) 2017-present, ????
+# Copyright (c) 2020-present, ????
 # All rights reserved.
 #
 # This source code is licensed under the license found in the LICENSE file in
