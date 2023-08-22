@@ -1,5 +1,4 @@
 # k-Mixup-CIFAR10
-By Kristjan Greenewald, Anming Gu, Mikhail Yurochkin, Justin Solomon, Edward Chien.
 
 
 ## Introduction
@@ -11,18 +10,16 @@ our paper (https://arxiv.org/abs/2106.02933).
 
 ## Citation
 
-If you use this method or this code in your paper, then please cite it:
+If you use this method or this code in your paper, then please cite our paper:
 
 ```
-@article{
-anonymous2023kmixup,
-title={\$k\$-Mixup Regularization for Deep Learning via Optimal Transport},
-author={Anonymous},
-journal={Submitted to Transactions on Machine Learning Research},
-year={2023},
-url={https://openreview.net/forum?id=lOegPKSu04},
-note={Under review}
+@article{greenewald2021kmixup,
+  title={k-Mixup regularization for deep learning via optimal transport},
+  author={Greenewald, Kristjan and Gu, Anming and Yurochkin, Mikhail and Solomon, Justin and Chien, Edward},
+  journal={arXiv preprint arXiv:2106.02933},
+  year={2021}
 }
+
 ```
 
 ## Requirements and Installation
@@ -40,7 +37,7 @@ $ python train.py --lr=0.1 --alpha=10.0 --mixupBatch=16
 
 ## License
 
-This project is CC-BY-NC-licensed.
+This project is CC-BY-licensed.
 
 ## Acknowledgement
 The CIFAR-10 reimplementation of _k-mixup_ is adapted from the [mixup-cifar10](https://github.com/facebookresearch/mixup-cifar10/tree/main) repository by [facebookresearch](https://github.com/facebookresearch).
